@@ -4,11 +4,11 @@ function DataTable() {
         <table className="table table-striped table-sm">
             <thead>
                 <tr>
-                    <th>Data</th>
-                    <th>Vendedor</th>
-                    <th>Clientes visitados</th>
-                    <th>Negócios fechados</th>
-                    <th>Valor</th>
+                    <th>Date</th>
+                    <th>Seller</th>
+                    <th>Customers Visited</th>
+                    <th>Closed Deals</th>
+                    <th>Value</th>
                 </tr>
             </thead>
             <tbody>
