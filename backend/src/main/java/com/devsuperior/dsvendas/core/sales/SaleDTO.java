@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class SaleDto {
+public class SaleDTO {
 
     private Long id;
     private Integer visited;
@@ -22,7 +22,7 @@ public class SaleDto {
 
     private SellerDto seller;
 
-    public SaleDto(Sale sale){
+    public SaleDTO(Sale sale){
         this.id = sale.getId();
         this.visited = sale.getVisited();
         this.deals = sale.getDeals();
